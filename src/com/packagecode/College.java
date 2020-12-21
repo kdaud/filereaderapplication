@@ -6,13 +6,15 @@ import java.util.Scanner;
 
 public class College {
 	
-	File file = new File("/home/opensource/Documents/sample1.txt");
+	File file = new File("/home/opensource/Documents/sample2.txt");
 	
 	public void myfilereader() throws FileNotFoundException {
 		Scanner scanner=new Scanner(file);
-		System.out.println(scanner.nextLine());
-		while (scanner.hasNextLine()) {
 		
-	}
+		
+		while (scanner.hasNextLine())
+			System.out.println(scanner.nextLine());
+		
+
 	}
 }
